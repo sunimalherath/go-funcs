@@ -13,5 +13,8 @@ func main() {
 	fmt.Println("Evans :", callback.Evens(callback.Sum, x...))
 
 	y := recursion.Factorial(4)
-	fmt.Printf("Factorial of 4 is %d", y)
+	fmt.Printf("Factorial of 4 is %d\n", y)
+
+	z := recursion.LoopFactorial(4)
+	fmt.Println("Factorial of 4 (with loop): ", z)
 }
